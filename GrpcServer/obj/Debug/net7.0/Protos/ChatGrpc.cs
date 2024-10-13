@@ -49,6 +49,8 @@ namespace GrpcServer {
     static readonly grpc::Marshaller<global::GrpcServer.Message> __Marshaller_chat_Message = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.Message.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcServer.Empty> __Marshaller_chat_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.Empty.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::GrpcServer.UserList> __Marshaller_chat_UserList = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.UserList.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::GrpcServer.Message, global::GrpcServer.Empty> __Method_SendMessage = new grpc::Method<global::GrpcServer.Message, global::GrpcServer.Empty>(
@@ -65,6 +67,14 @@ namespace GrpcServer {
         "JoinStream",
         __Marshaller_chat_Empty,
         __Marshaller_chat_Message);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::GrpcServer.Empty, global::GrpcServer.UserList> __Method_GetActiveUsers = new grpc::Method<global::GrpcServer.Empty, global::GrpcServer.UserList>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetActiveUsers",
+        __Marshaller_chat_Empty,
+        __Marshaller_chat_UserList);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -88,6 +98,12 @@ namespace GrpcServer {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::GrpcServer.UserList> GetActiveUsers(global::GrpcServer.Empty request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -97,7 +113,8 @@ namespace GrpcServer {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_SendMessage, serviceImpl.SendMessage)
-          .AddMethod(__Method_JoinStream, serviceImpl.JoinStream).Build();
+          .AddMethod(__Method_JoinStream, serviceImpl.JoinStream)
+          .AddMethod(__Method_GetActiveUsers, serviceImpl.GetActiveUsers).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -109,6 +126,7 @@ namespace GrpcServer {
     {
       serviceBinder.AddMethod(__Method_SendMessage, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.Message, global::GrpcServer.Empty>(serviceImpl.SendMessage));
       serviceBinder.AddMethod(__Method_JoinStream, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::GrpcServer.Empty, global::GrpcServer.Message>(serviceImpl.JoinStream));
+      serviceBinder.AddMethod(__Method_GetActiveUsers, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.Empty, global::GrpcServer.UserList>(serviceImpl.GetActiveUsers));
     }
 
   }

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "rmoqyTZkvU2G0FaxbzSSvBD8w6Sh0/+n1T1mTPO3VnCnSFju52jKEdVgSU/NAZR9ENnwYy3kdurYaA1d6DCJog==",
+  "success": true,
+  "projectFilePath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/ChatAppMVC/ChatAppMVC.csproj",
+  "expectedPackageFiles": [
+    "/Users/gayathrijayachander/.nuget/packages/google.protobuf/3.28.2/google.protobuf.3.28.2.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.core.api/2.66.0/grpc.core.api.2.66.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.net.client/2.66.0/grpc.net.client.2.66.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.net.clientfactory/2.66.0/grpc.net.clientfactory.2.66.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.net.common/2.66.0/grpc.net.common.2.66.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.tools/2.67.0/grpc.tools.2.67.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.aspnetcore.cors/2.2.0/microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.configuration.abstractions/2.2.0/microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.fileproviders.abstractions/2.2.0/microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.http/6.0.0/microsoft.extensions.http.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
