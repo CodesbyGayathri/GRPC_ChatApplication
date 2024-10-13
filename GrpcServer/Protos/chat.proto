@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServer";
+
+package chat;
+
+service Chat{
+    rpc SendMessage (Message) returns (Empty);
+    rpc JoinStream (Empty) returns (stream Message);
+}
+
+message Message{
+    string username = 1;
+    string text = 2;
+}
+
+message Empty{}

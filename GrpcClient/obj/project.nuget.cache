@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "14tGPFmSSBB7cc48zP60xhlIdmpQL3hqwW3wPptRzgN7HJBn0sI6GHKGmYjhWQm5lrXzvSKU0FcHmTfLYXDpwA==",
+  "success": true,
+  "projectFilePath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/GrpcClient/GrpcClient.csproj",
+  "expectedPackageFiles": [
+    "/Users/gayathrijayachander/.nuget/packages/google.protobuf/3.28.2/google.protobuf.3.28.2.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.core.api/2.66.0/grpc.core.api.2.66.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.net.client/2.66.0/grpc.net.client.2.66.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.net.common/2.66.0/grpc.net.common.2.66.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/grpc.tools/2.67.0/grpc.tools.2.67.0.nupkg.sha512",
+    "/Users/gayathrijayachander/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
