@@ -3,7 +3,6 @@ using System.ComponentModel;
 using Grpc.Net.Client;
 using GrpcServer;
 
-
 var channel = GrpcChannel.ForAddress("http://localhost:5114");
 var client = new Chat.ChatClient(channel);
 
