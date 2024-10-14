@@ -9,7 +9,10 @@ public class ChatController : Controller
 {
     private readonly Chat.ChatClient _chatClient;
     private string usrname;
+
     private static List<ChatMessage> _messages = new List<ChatMessage>();
+
+    private static List<string> _activeUsers = new List<string>();
 
     public ChatController(Chat.ChatClient chatClient)
     {
@@ -22,7 +25,8 @@ public class ChatController : Controller
         var viewModel = new ChatViewModel
         {
             Messages = _messages,
-            Username = username
+            Username = username,
+            ActiveUsers = _activeUsers
         };
 
         return View(viewModel);
@@ -49,11 +53,39 @@ public class ChatController : Controller
         var viewModel = new ChatViewModel
         {
             Username = usrname,
+            ActiveUsers = _activeUsers
         };
 
         // Redirect to refresh the view
         return RedirectToAction("Index", viewModel);
     }
+
+    [HttpPost]
+    public async Task<IActionResult> JoinRoom(string username){
+        _activeUsers.Add(username);
+        if (usrname == null || usrname == ""){
+            usrname = username;
+        } 
+
+         var viewModel = new ChatViewModel
+        {
+            Username = usrname,
+            ActiveUsers = _activeUsers
+        };
+        return RedirectToAction("Index", viewModel);
+    }
+
+     [HttpPost]
+    public async Task<IActionResult> LeaveRoom(string username){
+        _activeUsers.Remove(username);
+         var viewModel = new ChatViewModel
+        {
+            Username = usrname,
+            ActiveUsers = _activeUsers
+        };
+        return View();
+    }
+
 
     
 }

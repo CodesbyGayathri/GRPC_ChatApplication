@@ -9,41 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatAppMVC
 build_property.RootNamespace = ChatAppMVC
-build_property.ProjectDir = /Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/ChatAppMVC/
+build_property.ProjectDir = /Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/ChatAppMVC/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/ChatAppMVC
+build_property.MSBuildProjectDirectory = /Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/ChatAppMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/Chat/Index.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/Chat/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/Home/Index.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/Chat/LeaveRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhdC9MZWF2ZVJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/Home/Privacy.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/Shared/Error.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/_ViewImports.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/_ViewStart.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gayathrijayachander/Documents/C\#_Projects/GrpcServer/ChatAppMVC/Views/Shared/_Layout.cshtml]
+[/Users/gayathrijayachander/Documents/C\#_Projects/GRPC_ChatApplication/ChatAppMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jdtgll5pc6

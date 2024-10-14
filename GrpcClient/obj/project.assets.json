@@ -305,11 +305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/GrpcClient/GrpcClient.csproj",
+      "projectUniqueName": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/GrpcClient/GrpcClient.csproj",
       "projectName": "GrpcClient",
-      "projectPath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/GrpcClient/GrpcClient.csproj",
+      "projectPath": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/GrpcClient/GrpcClient.csproj",
       "packagesPath": "/Users/gayathrijayachander/.nuget/packages/",
-      "outputPath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/GrpcClient/obj/",
+      "outputPath": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/GrpcClient/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gayathrijayachander/.nuget/NuGet/NuGet.Config"

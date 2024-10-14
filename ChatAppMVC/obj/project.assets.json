@@ -966,11 +966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/ChatAppMVC/ChatAppMVC.csproj",
+      "projectUniqueName": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/ChatAppMVC/ChatAppMVC.csproj",
       "projectName": "ChatAppMVC",
-      "projectPath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/ChatAppMVC/ChatAppMVC.csproj",
+      "projectPath": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/ChatAppMVC/ChatAppMVC.csproj",
       "packagesPath": "/Users/gayathrijayachander/.nuget/packages/",
-      "outputPath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/ChatAppMVC/obj/",
+      "outputPath": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/ChatAppMVC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gayathrijayachander/.nuget/NuGet/NuGet.Config"

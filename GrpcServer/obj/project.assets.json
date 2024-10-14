@@ -747,11 +747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/GrpcServer/GrpcServer.csproj",
+      "projectUniqueName": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/GrpcServer/GrpcServer.csproj",
       "projectName": "GrpcServer",
-      "projectPath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/GrpcServer/GrpcServer.csproj",
+      "projectPath": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/GrpcServer/GrpcServer.csproj",
       "packagesPath": "/Users/gayathrijayachander/.nuget/packages/",
-      "outputPath": "/Users/gayathrijayachander/Documents/C#_Projects/GrpcServer/GrpcServer/obj/",
+      "outputPath": "/Users/gayathrijayachander/Documents/C#_Projects/GRPC_ChatApplication/GrpcServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gayathrijayachander/.nuget/NuGet/NuGet.Config"
